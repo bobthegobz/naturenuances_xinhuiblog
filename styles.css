@@ -1,0 +1,196 @@
+
+a.top:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.top:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.top:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.top:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+header {
+  background-color: #065b5e;
+  text-align: center;
+  padding:0px;
+  margin: 0px;
+  font-family: "Didot"
+}
+
+body {
+  margin: 0;
+  font-family: "Didot";
+}	
+
+.body1 {
+  background-color: #065b5e;
+  text-align: center;
+  padding:0px;
+  margin: 0px;
+  font-family: "Didot";
+  color: white;
+   
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #065b5e;
+}
+
+.ultwo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px ;
+  text-decoration: none;
+  padding: 14px;
+}
+
+
+.text {
+  padding: 60px;
+  font-size: 20px;
+  color: white;
+}
+
+.htext {
+  background-color: #43a891;
+  width: 80%;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+  font-size: 30px
+  
+}
+
+.htextp2 {
+  background-color: #43a891;
+  width: 80%;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+  font-size: 30px
+  color: black;
+}
+
+.htextp3 {
+  background-color: #43a891;
+  width: 60%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px
+  
+}
+
+li a.active {
+  background-color: #43a891;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+}
+ul li {
+  font-family: 'didot';
+  color: #065b5e;
+  font-size: 15px;
+}
+
+.image1 {
+  max-width:100%;
+  max-height:100%;
+  padding: 0px ;
+  border-style: solid;
+  border-width: 5px;
+  border-color:#223D38;
+}
+
+#barhead {
+  background-color: #065b5e;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+
+}
+
+#notice {
+  background-color:white;
+  text-align: center;
+  color: black;
+  position: fixed;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  font-size: 20px;
+  
+}
+
+#ptwo {
+  width: 50%; 
+  margin: auto;
+  color: white;
+}
+
+#picdim {
+  width: 60%
+}
+
+#subheader {
+  font-size: 30px;
+  color: #065b5e;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+td, th {
+  border: 1px solid #404040;
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background-color: #065b5e;
+  color: white
+}
+
+td {
+  background-color: #ffebb5;
+  color: #065b5e
+}
+
+
